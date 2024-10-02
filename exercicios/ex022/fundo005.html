@@ -6,22 +6,24 @@
     <title>Document</title>
     <style>
         body {
+            height: 100vh;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-color: rgba(0, 0, 255, 0.411);
-            height: 100vh;
             background-size: cover;
+            background-attachment: fixed;
 
-        
             
+            /*shorthand- backgraund color > image > position > repeat > [size] > attachment
+            
+            background-color: aquamarine url('imagens/wallpaper002.jpg') center center no-repeat fixed;*/
 
         }
         main {
             background-color: white;
-            padding: 30px;
-            width: 400px;
-            position: 100%;
+            padding: 10px;
+            max-width: 400px;
             border: solid black;
             border-radius: 10px;
             margin: auto;
